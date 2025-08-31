@@ -1,0 +1,24 @@
+# Web API 基础
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+aiofiles>=23.1.0
+python-multipart>=0.0.6
+
+# 工具与配置
+easydict>=1.9
+multimethod>=1.9
+termcolor>=2.0.0
+trimesh>=4.0.0
+wandb>=0.15.0
+PyYAML>=6.0
+open3d>=0.19.0
+
+# 版本控制/日志/依赖工具
+gitpython>=3.1.30
+sentry-sdk>=1.0.0
+
+# 机器学习 / 深度学习依赖（如需要）
+# torch 和 torchvision 通常用 conda 或预编译 whl 安装，不写死在 requirements.txt
+# 你可以根据环境再单独 pip/conda 安装：
+# torch==1.13.1+cu116
+# torchvision==0.14.1+cu116
